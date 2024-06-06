@@ -45,7 +45,26 @@
       /*background-color:#9D00B8;*/
       position:fixed;
       top:0;
+			display:inline-flex;
+			justify-content:space-evenly;
     }
+		.logo{
+			width:80%;
+		}
+		.nav{
+			width:15%;
+		}
+		.ham{
+			width:90%;
+			padding:20px;
+      background-color:pink;
+			color:purple;
+			border-radius:20px;
+		}
+		.burger{
+			padding:2px 0;
+			width:100%;
+		}
     header img{
       width:30%;
     }
@@ -291,7 +310,19 @@ Let Us Exceed Your Expectation And Be
     
   </div>
 <header>
-   <img src="20240213_013942.png" />
+   <div class="logo">
+		 <img src="20240213_013942.png" />
+	 </div>
+	<div class="nav">
+		<div class="ham">
+			<div class="burger">
+			</div>
+			<div class="burger">
+			</div>
+			<div class="burger">
+			</div>
+		</div>
+	</div>
 </header>
 </body>
 </html>
