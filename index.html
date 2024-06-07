@@ -344,6 +344,258 @@ $(document).ready(function(){
 			margin-top:75px;
 			text-align:center;
 			}
+
+		/* media screen style*/
+		@media screen and (min-width:500px){
+			header img{
+      width:30%;
+    }
+    .cont{
+      background-color:black;
+      height:95dvh;
+    }
+    .abs{
+      position:absolute;
+      width:100%;
+      height:95dvh;
+      background-image:url("IMG_20240319_221124_107.jpg");
+      background-position:center;
+      background-size:cover;
+      background-repeat:no-repeat;
+      opacity:45%;
+      animation:slide 12s infinite;
+		}
+			@keyframes slide{
+      5%{background-image:url("IMG_20240319_221124_107.jpg");}
+      30%{background-image:url("IMG_20240319_221124_107.jpg");}
+      35%{background-image:url("images (92).jpeg");}
+      65%{background-image:url("images (92).jpeg");}
+      70%{background-image:url("images (93).jpeg");}
+      95%{background-image:url("images (93).jpeg");}
+    }
+    .rel{
+      position:relative;
+      width:85%;
+      height:max-content;
+      margin:auto;
+      text-align:center;
+      color:white;
+      top:27dvh;
+      font-size:5vw;
+			}
+			.rel h1{
+      font-size:6vw;
+    }
+.rel h2{
+      font-size:4vw;
+}
+    .rel .line{
+      padding:2px;
+      width:40%;
+      margin: 4px auto;
+      position:relative;
+      background-color:pink;
+    }
+    .rel button{
+      border:0;
+      padding:25px 35px;
+      color:white;
+      background-color:#9D00B8;
+      border-radius:5px;
+      font-size:2vw;
+      margin-top:20px;
+		}
+			.about{
+      text-align:center;
+      margin:55px auto;
+      position:relative;
+      width:90%;
+      }
+    .about p{
+      font-size:2vw;
+      }
+    h3{
+      color:#9D00B8;
+      font-size:3vw;
+    }
+    .abcon{
+      width:80%;
+      position:relative;
+      margin:45px auto;
+      text-align:left;
+			}
+			.abcon p{
+      font-size:2vw;
+      margin:25px 0;
+    }
+    .abcon h3{
+      color:black;
+    }
+    .abconimg{
+      width:100%;
+      margin:45px 0px;
+      display:grid;
+      grid-template-columns:48% 48%;
+      gap:2%;
+	  }
+	  .abconimg img{
+		  width:100%;
+	    }
+		.about li{
+			font-size:2.5vw;
+      margin:12px 0;
+			color:#8968cd;
+		}
+			 .services{
+      text-align:center;
+      width:100%;
+      padding:45px 0;
+      background-color:#ffd8f0;
+    }
+    .services p{
+      font-size:2vw;
+  }
+    .serve{
+      width:80%;
+      margin:35px auto;
+      position:relative;
+		}
+			.ser{
+      text-align:center;
+      width:94%;
+      padding:70px 20px;
+      color:black;
+      background-color:white;
+      border-radius:10px;
+      margin:30px 0;
+			transition:ease .6s;
+		  position:relative;
+      }
+		.ser:hover{
+			bottom:5px;
+			}
+    .ser img{
+      width:30%;
+      }
+    .ser h3{
+      color:black;
+      margin:20px 0;
+    }
+		.salescon{
+			text-align:center;
+			background-color:white;
+			padding:75px 0px;
+			width:100%;
+			}
+			.sales{
+			width:85%;
+      position:relative;
+			margin:40px auto;
+			display:grid;
+			grid-template-columns:20% 20% 20% 20%;
+			gap:5% 13%;
+		}
+		.sale{
+			padding:20px;
+			border:3px solid #ffd8f0;
+			border-radius:10px;
+			box-shadow:0px 0px 11px #909090;
+			width:100%;
+		}
+		.sale img{
+			width:100%;
+		}
+		.sale p{
+			font-size:2vw;
+	}
+			.sale .more{
+      padding:15px 40px;
+      color:black;
+      background-color: transparent;
+      border-radius:5px;
+      font-size:2vw;
+      margin-top:20px;
+			border:solid 3px #8968cd;
+			transition:ease .6s;
+			position:relative;
+			bottom:0;
+		}
+		.ads{
+			text-align:center;
+			background-color:#8968cd;
+			padding:75px 0px;
+			color:white;
+		}
+		.ad{
+			width:70%;
+			padding:45px;
+			background-color:white;
+			border-radius:10px;
+			position:relative;
+			margin:30px auto;
+			}
+		.adin{
+			width:90%;
+			padding:35px;
+			background-color: transparent;
+			border-radius:10px;
+			color:black;
+			border:solid 3px #ffd8f0;
+			position:relative;
+			margin:auto;
+		}
+		 .p{
+			display:none;
+		}
+		.adin button, .more{
+      border:0;
+      padding:25px 35px;
+      color:black;
+      background-color: transparent;
+      border-radius:5px;
+      font-size:2vw;
+      margin-top:20px;
+			border:solid 3px #8968cd;
+			transition:ease .6s;
+		}
+		.ads img{
+			width:100%;
+			border-radius:10px;
+		}
+		.review{
+		  background-image:url("images (158).jpeg");
+      background-position:center;
+      background-size:cover;
+      background-repeat:no-repeat;
+			padding:70px 0;
+			text-align:center;
+			color:white;
+			margin-top:65px;
+			}
+		.per{
+			width:78%;
+			height:max-content;
+			position:relative;
+			margin:25px auto;
+			font-size:2vw;
+			background-color:rgb(148, 87, 235, 0.7);
+			padding:45px;
+		}
+		.per h3{
+			color:white;
+			}
+		.per img{
+			width:30%;
+			border-radius:50%;
+			}
+		footer{
+			background-color:#8968cd;
+			color:white;
+			padding:50px 0;
+			margin-top:75px;
+			text-align:center;
+		}
+			}
     </style>
 <body>
   <div class="body">
