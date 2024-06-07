@@ -6,7 +6,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<script>
 $(document).ready(function(){
-  $(".more").siblings("p").toggle();
+	$(".more").click(function () {
+      $(this).siblings("p").toggle();
+     });
+  
 });
 		</script>
 		<link rel="icon" type="image/x-icon" href="20240213_013942.png">
