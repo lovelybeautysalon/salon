@@ -6,7 +6,7 @@
   
 
 		<title>
-		LOVELY BEAUTY SALON; BEST HAIRDRESSING SALON IN IBADAN
+		LOVELY BEAUTY SALON
 		</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -22,6 +22,15 @@ $(document).ready(function(){
 
 	$(".momenu h3, .momenu p").click(function () {
       $(".momenu").slideToggle(200);
+     });
+
+
+	$("#reg").click(function () {
+      $("#momenu").slideToggle(200);
+     });
+
+	$("#momenu h3, .momenu p").click(function () {
+      $("#momenu").slideToggle(200);
      });
   
 });
@@ -428,6 +437,55 @@ transform: translate(-50%, -50%);
 			font-size:5vw;
 			border-bottom:4px solid #ffd8f0;
 		}
+
+
+			#momenu{
+			background-color:rgb(148, 87, 235, 0.7);
+			position:fixed;
+			height:100%;
+			width:100%;
+			display:none;
+		}
+		#momenu .tab{
+			background-color:white;
+			color:#8968cd;
+			width:80%;
+			height:80%;
+			position:relative;
+			margin: auto;
+			top:10%;
+		}
+		.tab .menu{
+			background-color:transaprent;
+			width:85%;
+			position:relative;
+			margin:auto;
+			top:10%;
+		}
+		.tab .menu p{
+			padding:15px 0;
+			margin:10px 0;
+			font-weight:bold;
+		}
+		#momenu h3{
+			width:max-content;
+			padding:35px 45px;
+			border-radius:50%;
+			border:3px solid #ffd8f0;
+			position:absolute;
+			bottom:0;
+			margin:auto;
+			height:max-content;
+			top: 50%;
+left: 48%;
+transform: translate(-50%, -50%);
+		}
+		#momenu span{
+			padding:15px;
+			margin:10px 25px;
+			font-size:5vw;
+			border-bottom:4px solid #ffd8f0;
+			}
 	/*	}*/
 	
 		/*	header img{
@@ -779,7 +837,7 @@ Let Us Exceed Your Expectation And Be
 						 </table>
 					 </div>
           <button class="more">LEARN MORE</button>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScJjBDab0FiBtSzOxOPyvFubQnszYdXV775NFi3_-NRvjg0oA/viewform?usp=sf_link"><button>BOOK APPOINTMENT</button>
+          <a href=""><button class="reg">BOOK APPOINTMENT</button>
 					</a>
 	      </div>
          <div class="ser">
@@ -1002,6 +1060,26 @@ Let Us Exceed Your Expectation And Be
 				<a href="#services"><p>Services</p></a>
 				<a href="#sales"><p>Catalog</p></a>
 				<a href="#post"><p>Posts & Offer</p></a>
+				<br><br><br><br>
+				<span class="fa fa-facebook" style="color:blue;"></span>
+				<span class="fa fa-instagram" style="color:red;"></span>
+				<span class="fa fa-linkedin" style="color: lightblue;"></span>
+				<span class="fa fa-whatsapp" style="color:green;"></span>
+				<span class="fa fa-mobile" style="color: black;"></span>
+			</div>
+			<h3>X</h3>
+		</div>
+	</div>
+
+
+	<div id="momenu">
+		<div class="tab">
+			<div class="menu">
+				<a href="#body"><button class="more">Starter Loc</button></a><br>
+				<a href="#about"><button class="more">Reloc</button></a><br>
+				<a href="#services"><button class="more">Braid</button></a><br>
+				<a href="#sales"><button class="more">Frontal Installation</button></a>
+				
 				<br><br><br><br>
 				<span class="fa fa-facebook" style="color:blue;"></span>
 				<span class="fa fa-instagram" style="color:red;"></span>
